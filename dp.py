@@ -100,7 +100,8 @@ for i in range(len(p)):
         s1+=a[t1]
         s2+=a[t1]
     else:
-        prev=p[i+1]
+        if i!=len(p)-1:
+            prev=p[i+1]
         # print("prev : ",prev)
         if t1<prev[0] and t2==prev[1]:
             s1+='_'
