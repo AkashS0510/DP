@@ -36,8 +36,8 @@ rows = len(a)
 arr = np.zeros((rows+1, cols+1), dtype=int)
 
 Parent = [[(0,0)]*(cols+1) for i in range(rows+1)]
-score = 2
-penalty = -1
+score = 5
+penalty = -4
 
 
 for i in range(1, rows+1):
